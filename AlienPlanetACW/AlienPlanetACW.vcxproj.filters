@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>49f7dce7-a0cf-4690-a6e6-ed285cd8966e</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>6041e9d1-e960-400a-ae83-a64817578fe3</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>ae05952d-8496-41af-a1ad-94f65cb1d78b</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="Common\DirectXHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClInclude Include="Content\Sample3DSceneRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\SampleFpsTextRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\ShaderStructures.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClCompile Include="Content\Sample3DSceneRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\SampleFpsTextRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <FxCompile Include="Content\SamplePixelShader.hlsl">
+      <Filter>Content</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\SampleVertexShader.hlsl">
+      <Filter>Content</Filter>
+    </FxCompile>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Content\ExplicitObjects">
+      <UniqueIdentifier>{47e2a70f-117c-4c62-8d89-ecd67cb471c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\ExplicitObjects\Shaders">
+      <UniqueIdentifier>{7ccb515d-b18f-4107-bc82-cc5782ad4d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Other">
+      <UniqueIdentifier>{e48528bf-c35e-4d15-8818-9d8866869ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\ExplicitObjects\Shaders\Terrain">
+      <UniqueIdentifier>{7368315b-55f3-42f5-bd2d-6bdd8290776e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\ExplicitObjects\Shaders\Grass">
+      <UniqueIdentifier>{28dd3779-6bdb-466b-b332-414dca298663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\ImplicitObjects">
+      <UniqueIdentifier>{99162074-904b-47a3-bf27-645fc8ef61c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\ImplicitObjects\Shaders">
+      <UniqueIdentifier>{5957dcb9-2ad8-42d4-95d5-8067ff264fa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\ExplicitObjects\Shaders\Snake">
+      <UniqueIdentifier>{8cb2b1fb-4396-461d-8c82-06147a0d4449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\ExplicitObjects\Shaders\Torus">
+      <UniqueIdentifier>{43dbf8d0-f75f-4db1-9bcc-6528df3563eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\ExplicitObjects\Shaders\Ellipsoid">
+      <UniqueIdentifier>{2ff54f64-f726-40bf-897d-c793040c7e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\ExplicitObjects\Shaders\TessellatedSphere">
+      <UniqueIdentifier>{026fbc34-0dc8-4a37-b708-5e0f3e293138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\ExplicitObjects\Shaders\CameraTessellatedSphere">
+      <UniqueIdentifier>{64349490-ad84-4c71-ba95-b70d1b7d5c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\ImplicitObjects\Shaders\RayMarchedModels">
+      <UniqueIdentifier>{9e852403-ac1d-4830-8433-0187089e9589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\ImplicitObjects\Shaders\RayTracedModels">
+      <UniqueIdentifier>{3b752d37-a06d-4acd-b562-41535e5d1d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\ExplicitObjects\Shaders\BezierCurve">
+      <UniqueIdentifier>{2d391d83-afc6-441a-9e42-a582866d112a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\ExplicitObjects\Shaders\Sea">
+      <UniqueIdentifier>{84bdb703-0947-4bff-aca0-08adf529bb16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="AlienPlanetACWMain.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="PlanetTerrain.cpp">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Content\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanetGrass.cpp">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="ImplicitRayModels.cpp">
+      <Filter>Content\ImplicitObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ParametricTorus.cpp">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ParametricEllipsoid.cpp">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellatedSphere.cpp">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraTessellatedSphere.cpp">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplicitRayTracedModels.cpp">
+      <Filter>Content\ImplicitObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanetSea.cpp">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BezierCurve.cpp">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="AlienPlanetACWMain.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="PlanetTerrain.h">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Content\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanetGrass.h">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="ImplicitRayModels.h">
+      <Filter>Content\ImplicitObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ParametricTorus.h">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ParametricEllipsoid.h">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellatedSphere.h">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraTessellatedSphere.h">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplicitRayTracedModels.h">
+      <Filter>Content\ImplicitObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanetSea.h">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BezierCurve.h">
+      <Filter>Content\ExplicitObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AlienPlanetACW_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="PlanetTerrainVS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="PlanetTerrainPS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="PlanetTerrainHS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="PlanetTerrainDS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="PlanetGrassVS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Grass</Filter>
+    </FxCompile>
+    <FxCompile Include="PlanetGrassGS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Grass</Filter>
+    </FxCompile>
+    <FxCompile Include="PlanetGrassPS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Grass</Filter>
+    </FxCompile>
+    <FxCompile Include="SnakeVS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Snake</Filter>
+    </FxCompile>
+    <FxCompile Include="SnakeGS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Snake</Filter>
+    </FxCompile>
+    <FxCompile Include="SnakePS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Snake</Filter>
+    </FxCompile>
+    <FxCompile Include="ParametricTorusDS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Torus</Filter>
+    </FxCompile>
+    <FxCompile Include="ParametricTorusHS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Torus</Filter>
+    </FxCompile>
+    <FxCompile Include="ParametricTorusPS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Torus</Filter>
+    </FxCompile>
+    <FxCompile Include="ParametricTorusVS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Torus</Filter>
+    </FxCompile>
+    <FxCompile Include="ParametricEllipsoidDS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Ellipsoid</Filter>
+    </FxCompile>
+    <FxCompile Include="ParametricEllipsoidHS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Ellipsoid</Filter>
+    </FxCompile>
+    <FxCompile Include="ParametricEllipsoidPS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Ellipsoid</Filter>
+    </FxCompile>
+    <FxCompile Include="ParametricEllipsoidVS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Ellipsoid</Filter>
+    </FxCompile>
+    <FxCompile Include="TessellatedSphereVS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\TessellatedSphere</Filter>
+    </FxCompile>
+    <FxCompile Include="TessellatedSphereHS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\TessellatedSphere</Filter>
+    </FxCompile>
+    <FxCompile Include="TessellatedSphereDS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\TessellatedSphere</Filter>
+    </FxCompile>
+    <FxCompile Include="TessellatedSpherePS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\TessellatedSphere</Filter>
+    </FxCompile>
+    <FxCompile Include="CameraTessellatedSphereVS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\CameraTessellatedSphere</Filter>
+    </FxCompile>
+    <FxCompile Include="ImplicitRayTracedModelsPS.hlsl">
+      <Filter>Content\ImplicitObjects\Shaders\RayTracedModels</Filter>
+    </FxCompile>
+    <FxCompile Include="ImplicitRayModelsPS.hlsl">
+      <Filter>Content\ImplicitObjects\Shaders\RayMarchedModels</Filter>
+    </FxCompile>
+    <FxCompile Include="ImplicitRayModelsVS.hlsl">
+      <Filter>Content\ImplicitObjects\Shaders\RayMarchedModels</Filter>
+    </FxCompile>
+    <FxCompile Include="BezierCurveVS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\BezierCurve</Filter>
+    </FxCompile>
+    <FxCompile Include="BezierCurveHS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\BezierCurve</Filter>
+    </FxCompile>
+    <FxCompile Include="BezierCurveDS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\BezierCurve</Filter>
+    </FxCompile>
+    <FxCompile Include="BezierCurvePS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\BezierCurve</Filter>
+    </FxCompile>
+    <FxCompile Include="PlanetSeaDS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Sea</Filter>
+    </FxCompile>
+    <FxCompile Include="PlanetSeaPS.hlsl">
+      <Filter>Content\ExplicitObjects\Shaders\Sea</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="plane.obj">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="snake.dds">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="EllipsoidDiffuse.dds">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="EllipsoidNormal.dds">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="TorusDiffuse.dds">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="TorusNormal.dds">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sphere.obj">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="TessellatedSphereDiffuse.dds">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="TessellatedSphereDisplacement.dds">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="TessellatedSphereNormal.dds">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="TessellatedSphereSpecular.dds">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="CameraTessellatedSphereSpecular.dds">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="CameraTessellatedSphereNormal.dds">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="CameraTessellatedSphereDisplacement.dds">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="CameraTessellatedSphereDiffuse.dds">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="plane2.obj">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sphere2.obj">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="PlanetSeaDisplacement.dds">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="PlanetSeaNormal.dds">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="PlanetSeaSpecular.dds">
+      <Filter>Assets</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
